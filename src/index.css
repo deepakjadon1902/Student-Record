@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-slate-50 to-slate-100;
+  }
+}
+
+.glass-morphism {
+  @apply bg-white bg-opacity-70 backdrop-blur-lg;
+}
